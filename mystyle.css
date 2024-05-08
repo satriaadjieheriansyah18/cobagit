@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+}
+table{
+    margin-top: 8px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+    background-color: green;
+    color: aliceblue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.box{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+}
