@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="script.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Line Chart</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="index.css">
+      </head>
+<body>
+    <div class="box">
+       <h1>Pizza's Sales </h1>
+    </div>
+
+    <section style="display: flex; gap: 20px; margin-top: 10px;">
+    <div class="box1">
+        <div class="quan">quantity</div>
+        <div class="uk">480</div>
+        
+    </div>
+
+    <div class="box2">
+        <div class="quan">price</div>
+        <div class="uk">$7,266.85</div>
+        
+    </div>
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">FILTER MONTH
+            <i class="fas fa-caret-down" id="pad"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+          <input type="text" placeholder=" type to search.." id="myInput" onkeyup="filterFunction()">
+            <input type="checkbox" id="bulan-1" value="1">
+            <label for="bulan-1">Januari</label><br>
+            <input type="checkbox" id="bulan-2" value="2">
+            <label for="bulan-2">Februari</label><br>
+            <input type="checkbox" id="bulan-3" value="2">
+            <label for="bulan-3">Maret</label><br>
+            <input type="checkbox" id="bulan-4" value="2">
+            <label for="bulan-4">April</label><br>
+            <input type="checkbox" id="bulan-5" value="2">
+            <label for="bulan-5">Mei</label><br>
+            <input type="checkbox" id="bulan-6" value="2">
+            <label for="bulan-6">Juni</label><br>
+            <input type="checkbox" id="bulan-7" value="2">
+            <label for="bulan-7">Juli</label><br>
+            <input type="checkbox" id="bulan-8" value="2">
+            <label for="bulan-8">Agustus</label><br>
+            <input type="checkbox" id="bulan-9" value="2">
+            <label for="bulan-9">September</label><br>
+            <input type="checkbox" id="bulan-10" value="2">
+            <label for="bulan-10">Oktober</label><br>
+            <input type="checkbox" id="bulan-11" value="2">
+            <label for="bulan-11">November</label><br>
+            <input type="checkbox" id="bulan-12" value="2">
+            <label for="bulan-12">Desember</label><br>
+            
+        </div>
+      </div>
+    </section>
+    <div style="display: flex; justify-content: space-around;">
+    <div class="bar">
+        <h3 style="text-align: center;">SALES/DAY</h3>
+        <canvas id="myChart"></canvas>
+    </div>
+    <div class="bar">
+        <h3 style="text-align: center;">INCOME/MONTH</h3>
+        <canvas id="LineChart"></canvas>
+    </div>
+</div>
+</body>
+</html>

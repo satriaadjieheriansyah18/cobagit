@@ -1,0 +1,37 @@
+[{
+    "bulan": "Jan",
+    "total_penjualan_dollar": "$560.90"
+  }, {
+    "bulan": "Feb",
+    "total_penjualan_dollar": "$690.35"
+  }, {
+    "bulan": "Mar",
+    "total_penjualan_dollar": "$574.60"
+  }, {
+    "bulan": "Apr",
+    "total_penjualan_dollar": "$569.80"
+  }, {
+    "bulan": "Mei",
+    "total_penjualan_dollar": "$745.60"
+  }, {
+    "bulan": "Jun",
+    "total_penjualan_dollar": "$655.15"
+  }, {
+    "bulan": "Jul",
+    "total_penjualan_dollar": "$646.25"
+  }, {
+    "bulan": "Agu",
+    "total_penjualan_dollar": "$592.15"
+  }, {
+    "bulan": "Sep",
+    "total_penjualan_dollar": "$672.10"
+  }, {
+    "bulan": "Okt",
+    "total_penjualan_dollar": "$498.65"
+  }, {
+    "bulan": "Nov",
+    "total_penjualan_dollar": "$564.85"
+  }, {
+    "bulan": "Des",
+    "total_penjualan_dollar": "$496.45"
+  }]
